@@ -18,30 +18,36 @@ main {
 
 #header {
   background-color: lightcoral;
+  grid-area: 1 / 1 / span 1 / span 5;
   /* assign the appropriate grid area */
 }
 
 #topArticle {
   background-color: lightskyblue;
+  grid-area: 2 / 3 / span 1 / span 3;
   /* assign the appropriate grid area */
 }
 
 #sideImage {
   background-color: lightgreen;
+  grid-area: 2 / 1 / span 2 / span 2;
   /* assign the appropriate grid area */
 }
 
 #sideArticle {
   background-color: lightseagreen;
+  grid-area: 3 / 3 / span 1 / span 3;
   /* assign the appropriate grid area */
 }
 
 #mainArticle {
   background-color: lightslategrey;
+  grid-area: 4 / 1 / span 1 / span 5;
   /* assign the appropriate grid area */
 }
 
 #footer {
   background-color: mediumpurple;
+  grid-area: 5 / 1 / span 1 / span 5;
  /* assign the appropriate grid area */
 }
